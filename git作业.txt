@@ -1,0 +1,23 @@
+git add和git stage的区别是什么
+	没有区别 git stage是 git add的替代品
+git rm --cached 和git rm -f的区别是什么
+	git rm --chahed 可以去除跟踪  git rm -f 删除本地文件
+git和svn的区别是什么
+	git是SVN 在收费后独立开发出来的，继承了svn的功能，由于免费的特性，他的开发和贡献人员
+	超过了svn 
+筛选出 2018.10.1 到 2018.10.20之间的日志,并且输出为地理图,并且没有做过合并
+
+git init和git clone的区别
+	git init 创建当前目录为git仓库，git clone是克隆别人的资料到当前目录
+每次提交都忽略.idea文件夹里面的东西怎么办
+
+编辑。gitigonre
+
+如果编辑一个文件之后并且加入了暂存区,但是你后悔了,想把文件恢复到没有修改之前的样子,怎么办
+git rm --cached (name)
+如何检出标签?
+
+git fetch 和 git pull的区别
+
+如何添加远程仓库
+git push 仓库名 远程仓库地址
